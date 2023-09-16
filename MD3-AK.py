@@ -105,5 +105,14 @@ print(TypeTuple)# Output: ('Decimal', 'Binary', 'Octal', 'Hexadecimal', 'Floatin
 print(TypeTuple[-1])# Output:Complex Literal
 
 # Tuple allow duplicates
-TypeTuple = ("Decimal", "Binary", "Octal", "Hexadecimal", "Floating-point Literal", "Complex Literal","Decimal")
+TypeTuple = ("Decimal", "Binary", "Octal", "Hexadecimal", "Octal")
 print(TypeTuple) # Output:('Decimal', 'Binary', 'Octal', 'Hexadecimal', 'Floating-point Literal', 'Complex Literal', 'Decimal')
+
+# Sadalīt tuple vairākos mainīgajos
+type1, type2, type3, type4, type5= TypeTuple
+
+print("Type 1:", type1)
+print("Type 2:", type2)
+print("Type 3:", type3)
+print("Type 4:", type4)
+print("Type 5:", type5)
